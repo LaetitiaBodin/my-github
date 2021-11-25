@@ -27,3 +27,23 @@
         }
     }
 }
+
+.detailsError {
+    p {
+        text-align: center;
+        color: $black_squeeze;
+    }
+    a {
+        background-color: $indigo;
+        color: $black_squeeze;
+        text-decoration: none;
+        line-height: 50px;
+        padding: 10px;
+        border-radius: 6px;
+        &:hover, &:active {
+            font-weight: bold;
+            background-color: $black_squeeze;
+            color : $purple;
+        }
+    }
+}

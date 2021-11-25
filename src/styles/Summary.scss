@@ -20,6 +20,31 @@ h1 {
     margin: 0 auto;
 }
 
+.languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    img {
+        width: 50px;
+        margin: 5px 10px;
+        animation: 2s linear lang_img;
+    }
+}
+
+@keyframes lang_img {
+
+    from {
+        width: 0px;
+        height: 0px
+    }
+
+    to {
+        width: 50px;
+        height: 50px;
+    }
+}
+
 .features {
     display: flex;
     flex-direction: row;

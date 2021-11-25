@@ -11,3 +11,15 @@ export const ErrorUser = ({error}) => {
         </div>
     )
 }
+
+export const ErrorDetails = ({errors, details}) => {
+    const err = [...new Set (errors)]
+    return (
+        <div className='detailsError'>
+            <p>Some data is missing due to the following error(s): {err.join(', ')}.</p>
+            <p>You may find the missing information<br/>
+                <a href={`https://github.com/${username}?tab=${details}`} target={'_blank'} rel={'noreferrer'}>HERE</a>
+            </p>
+        </div>
+    )
+}
