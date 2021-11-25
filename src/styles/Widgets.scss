@@ -38,3 +38,36 @@
         opacity: 0;
     }
 }
+
+/* SCROLL BUTTONS */
+
+.nav--btn {
+    position: fixed;
+    right: 20px;
+    z-index: 99;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    .back {
+        fill: $indigo;
+    }
+    .front {
+        fill: $aquamarine_blue;
+    }
+    &:hover {
+        .back {
+            fill: $aquamarine_blue;
+        }
+        .front {
+            fill: $indigo;
+        }
+    }
+  }
+
+.goToTop {
+    bottom: 70px;
+}
+
+.goToBottom {
+    bottom: 20px;
+}

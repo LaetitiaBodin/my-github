@@ -5,6 +5,7 @@ import { Data }          from './components/Data'
 import { Details }       from './components/Details'
 import { ErrorUser }     from './components/Errors'
 import { Summary }       from './components/Summary'
+import { ScrollButtons } from './components/Widgets'
 
 import './index.css'
 
@@ -47,6 +48,7 @@ const App = () => {
                         <Data    {...{user: user.data, setLangs, setRepos, setFollowers, setFollowing}}/>
                         <Summary {...{user: user.data, langs, details, setDetails}}/>
                         <Details {...{details, repos, followers, following}}/>
+                        <ScrollButtons {...{details}}/>
                     </>
             :   null        
     )

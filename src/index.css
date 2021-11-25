@@ -6,9 +6,30 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+html * {
+  font-family: 'Lato', sans-serif;
+}
+
 body {
   background-color: #7400b8;
-  font-family: 'Lato', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5e60ce;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #64dfdf;
+  border-radius: 10px;
 }
 
 /* -- REPOS -- */
@@ -484,4 +505,38 @@ h1 {
   100% {
     opacity: 0;
   }
+}
+
+/* SCROLL BUTTONS */
+.nav--btn {
+  position: fixed;
+  right: 20px;
+  z-index: 99;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav--btn .back {
+  fill: #5e60ce;
+}
+
+.nav--btn .front {
+  fill: #64dfdf;
+}
+
+.nav--btn:hover .back {
+  fill: #64dfdf;
+}
+
+.nav--btn:hover .front {
+  fill: #5e60ce;
+}
+
+.goToTop {
+  bottom: 70px;
+}
+
+.goToBottom {
+  bottom: 20px;
 }
