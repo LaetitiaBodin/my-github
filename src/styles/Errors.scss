@@ -1,0 +1,29 @@
+.userError {
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    h1 {
+        color: $black_squeeze;
+    }
+    p {
+        color: $black_squeeze;
+        line-height: 50px;
+    }
+    a {
+        background-color: $indigo;
+        color: $black_squeeze;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 6px;
+        &:hover, &:active {
+            font-weight: bold;
+            background-color: $black_squeeze;
+            color : $purple;
+        }
+    }
+}

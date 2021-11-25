@@ -1,0 +1,52 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: $black_squeeze;
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.avatar {
+    width: 300px;
+    max-width: 90%;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.feature {
+    width: 120px;
+    font-weight: bold;
+    margin: 0px 10px;
+    button {
+        width: 120px;
+        margin: 10px 0px;
+        padding: 0px;
+        font-size: 16px;
+        line-height: 24px;
+        border-radius: 6px;
+        border: none;
+        background-color: $indigo;
+        color: $black_squeeze;
+        font-weight: bold;
+        &:hover, &:active {
+            cursor: pointer;
+            background-color: $black_squeeze;
+            color : $purple;
+        }
+    }
+}

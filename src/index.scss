@@ -15,3 +15,11 @@ $purple_heart : #6930c3;
 $indigo : #5e60ce;
 $aquamarine_blue : #64dfdf;
 $black_squeeze : #edf6f9;
+
+body {
+    background-color: $purple;
+    font-family: 'Lato', sans-serif;
+}
+
+@import 'styles/Errors.scss';
+@import 'styles/Summary.scss';
