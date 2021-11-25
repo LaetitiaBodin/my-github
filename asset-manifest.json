@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-github/static/css/main.3350fca9.chunk.css",
+    "main.js": "/my-github/static/js/main.c7d85400.chunk.js",
+    "main.js.map": "/my-github/static/js/main.c7d85400.chunk.js.map",
+    "runtime-main.js": "/my-github/static/js/runtime-main.4226d874.js",
+    "runtime-main.js.map": "/my-github/static/js/runtime-main.4226d874.js.map",
+    "static/js/2.b4e76430.chunk.js": "/my-github/static/js/2.b4e76430.chunk.js",
+    "static/js/2.b4e76430.chunk.js.map": "/my-github/static/js/2.b4e76430.chunk.js.map",
+    "index.html": "/my-github/index.html",
+    "static/css/main.3350fca9.chunk.css.map": "/my-github/static/css/main.3350fca9.chunk.css.map",
+    "static/js/2.b4e76430.chunk.js.LICENSE.txt": "/my-github/static/js/2.b4e76430.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/my-github/static/media/lato-regular.bac9b88f.eot"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4226d874.js",
+    "static/js/2.b4e76430.chunk.js",
+    "static/css/main.3350fca9.chunk.css",
+    "static/js/main.c7d85400.chunk.js"
+  ]
+}
